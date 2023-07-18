@@ -19,6 +19,11 @@ body a {
 /* ******************* */
 /* GENERAL STYLES */
 /* ******************* */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 .flex-center {
   display: flex;
   align-items: center;
@@ -31,11 +36,41 @@ body a {
   justify-content: space-between;
 }
 
+.section-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: #534c64;
+  font-size: 18px;
+  line-height: 30px; /* 166.667% */
+}
+
+.btn {
+  display: inline-flex;
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 44px;
+
+  color: #fff;
+}
+
+.btn--pink {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+
+.btn--skyblue {
+  background: #4ec5f7;
+}
+
 /* ******************* */
 /* HEADER */
 /* ******************* */
 .header {
-  padding: 2rem 7rem;
+  padding: 2rem 10rem;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -103,3 +138,116 @@ body a {
 /* ******************* */
 /* HERO  */
 /* ******************* */
+.section-hero {
+  display: flex;
+  gap: 6rem;
+  /* min-height: calc(100vh - 88px); */
+}
+
+.hero__content-box {
+  flex: 1;
+  background: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+
+  padding: 10rem 0 0 10rem;
+}
+
+.hero__title {
+  color: #0b0223;
+  font-size: 3.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  margin-bottom: 2rem;
+}
+
+.hero__title span {
+  display: block;
+  font-size: 7.2rem;
+  line-height: 1.2;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__list-info {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  margin-bottom: 3.6rem;
+}
+
+.hero__list-info li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.hero__list-info li img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.hero__list-info li span {
+  color: #534c64;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.hero__btns {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.hero__img-box {
+  flex: 1;
+  padding-right: 10rem;
+  width: 100%;
+}
+
+.hero__img {
+  width: 52.5rem;
+}
+
+/* ******************* */
+/* GAMER SECTION  */
+/* ******************* */
+.section-gamer {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.gamer__img {
+  flex: 1;
+  width: 40rem;
+}
+
+.gamer__content {
+  flex: 1;
+  text-align: right;
+}
+
+.gamer__quote span {
+  display: block;
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gamer__quote .quote {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+}
