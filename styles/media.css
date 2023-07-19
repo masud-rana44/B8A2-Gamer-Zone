@@ -1,0 +1,243 @@
+/**************************/
+/* BELOW 1150px (Smaller desktops) */
+/**************************/
+@media (max-width: 71.875em) {
+  .container {
+    max-width: 100rem;
+  }
+
+  .section-carriers {
+    flex-direction: column;
+    padding: 12rem 0;
+  }
+
+  .carriers__content {
+    padding: 0 12rem 10rem;
+  }
+}
+
+/**************************/
+/* BELOW 1050px () */
+/**************************/
+@media (max-width: 65.625em) {
+  .container {
+    max-width: 90rem;
+  }
+
+  .section-hero {
+    gap: 3rem;
+  }
+
+  .hero__content-box {
+    padding: 8rem 0 0 8rem;
+  }
+
+  .hero__img-box {
+    padding-right: 8rem;
+  }
+
+  .gamer__content {
+    max-width: 40rem;
+  }
+
+  .online-games__card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .feature-1 {
+    flex-direction: column;
+    gap: 6rem;
+  }
+
+  .feature-2 {
+    flex-direction: column-reverse;
+    gap: 6rem;
+  }
+
+  .feature__content {
+    max-width: 40rem;
+  }
+
+  .feature-1 .feature__text,
+  .feature-2 .feature__text {
+    text-align: center;
+  }
+
+  .section-features .section-heading {
+    margin-bottom: 3.2rem;
+    line-height: 50px;
+    font-size: 4rem;
+  }
+}
+
+/**************************/
+/* BELOW 950px () */
+/**************************/
+@media (max-width: 59.375em) {
+  .container {
+    max-width: 70rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .section-hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10rem;
+
+    margin-top: 3.2rem;
+    padding-bottom: 8rem;
+  }
+
+  .hero__img-box {
+    padding: 0 15rem;
+  }
+
+  .hero__img {
+    width: 100%;
+  }
+
+  .hero__content-box {
+    padding: 0;
+  }
+
+  .section-gamer {
+    flex-direction: column;
+  }
+
+  .gamer__img {
+    width: 100%;
+  }
+
+  .gamer__content {
+    text-align: center;
+  }
+
+  .gamer__content .section-heading {
+    margin-bottom: 2.4rem;
+  }
+
+  .gamer__content .paragraph {
+    margin-bottom: 3.2rem;
+  }
+
+  .gamer__quote {
+    margin-top: 4.8rem;
+  }
+
+  .online-games__card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .online-games__card-container {
+    column-gap: 2.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 750px () */
+/**************************/
+@media (max-width: 46em) {
+  .container {
+    max-width: 60rem;
+  }
+
+  .feature-img {
+    width: 100%;
+  }
+
+  .feature-1 .feature__img-box {
+    padding-left: 8rem;
+  }
+
+  .feature-2 .feature__img-box {
+    padding-right: 8rem;
+  }
+
+  .feature-1 .feature-card-img {
+    transform: translate(-15%, 20%);
+  }
+
+  .feature-2 .feature-card-img {
+    transform: translate(5%, 35%);
+  }
+
+  .carriers__img {
+    width: 100%;
+  }
+
+  .carriers__content {
+    padding: 0 6rem 5rem;
+  }
+}
+
+/**************************/
+/* BELOW 620px () */
+/**************************/
+
+@media (max-width: 38.75em) {
+  .container {
+    max-width: 100%;
+    padding: 0 6rem;
+  }
+
+  .header {
+    padding: 8rem 10rem;
+    box-shadow: none;
+  }
+
+  .header__logo {
+    margin-bottom: 3rem;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+    gap: 3.6rem;
+  }
+
+  .header__nav-btn {
+    margin-top: 1rem;
+  }
+
+  .hero__img-box {
+    padding: 0 8rem;
+  }
+
+  .online-games__card-container {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 6rem;
+  }
+
+  .footer {
+    gap: 8rem;
+  }
+}
+
+/**************************/
+/* BELOW 620px () */
+/**************************/
+
+@media (max-width: 31.25em) {
+  .feature-1 .feature__img-box {
+    padding-left: 4rem;
+  }
+
+  .feature-2 .feature__img-box {
+    padding-right: 4rem;
+  }
+
+  .feature-card-img {
+    width: 15rem;
+  }
+
+  .feature-1 .feature-card-img {
+    transform: translate(-15%, 20%);
+  }
+
+  .feature-2 .feature-card-img {
+    transform: translate(5%, 35%);
+  }
+}
