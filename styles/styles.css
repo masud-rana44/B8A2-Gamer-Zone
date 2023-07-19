@@ -176,14 +176,13 @@ body a {
 .section-hero {
   display: flex;
   gap: 6rem;
-  /* min-height: calc(100vh - 88px); */
 }
 
 .hero__content-box {
   flex: 1;
   background: url("../images/hero-bg.png");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top right;
   background-size: cover;
 
   padding: 10rem 0 0 10rem;
@@ -514,6 +513,7 @@ body a {
   padding: 0.4rem;
   border-radius: 50px;
   border: 1px solid transparent;
+  transition: all 0.3s;
 
   cursor: pointer;
 }

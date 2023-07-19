@@ -81,14 +81,6 @@
   .hero__img {
     width: 58.5rem;
   }
-
-  /* .carriers__content {
-    padding-left: 9%;
-  }
-
-  .carriers__img {
-    width: 70rem;
-  } */
 }
 
 /**************************/
@@ -304,10 +296,6 @@
     grid-template-columns: repeat(1, 1fr);
     row-gap: 6rem;
   }
-
-  .footer {
-    gap: 8rem;
-  }
 }
 
 /**************************/
@@ -364,16 +352,4 @@
   .container {
     padding: 0 2rem;
   }
-
-  /* .header {
-    padding: 2.8rem 2rem;
-  }
-
-  .hero__content-box {
-    padding: 2rem 0 0 2rem;
-  }
-
-  .hero__img-box {
-    padding-right: 2rem;
-  } */
 }
