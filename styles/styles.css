@@ -86,6 +86,10 @@ body a {
   margin-bottom: 1rem;
 }
 
+.mb-lg {
+  margin-bottom: 2.4rem;
+}
+
 /* ******************* */
 /* HEADER */
 /* ******************* */
@@ -251,6 +255,8 @@ body a {
   display: flex;
   align-items: center;
   gap: 5rem;
+
+  padding: 8rem 0;
 }
 
 .gamer__img {
@@ -259,20 +265,24 @@ body a {
 }
 
 .gamer__content {
-  flex: 1;
   text-align: right;
+  max-width: 45rem;
+}
+
+.gamer__quote {
+  margin-top: 2rem;
 }
 
 .gamer__quote span {
   display: block;
   color: #534c64;
-  font-size: 24px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .gamer__quote .quote {
   color: #534c64;
-  font-size: 32px;
+  font-size: 2.4rem;
   font-weight: 700;
 }
 
