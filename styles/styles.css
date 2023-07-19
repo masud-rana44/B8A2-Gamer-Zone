@@ -184,7 +184,7 @@ body a {
   background: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-position: top left;
-  background-size: contain;
+  background-size: cover;
 
   padding: 10rem 0 0 10rem;
 }

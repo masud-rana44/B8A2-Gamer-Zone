@@ -1,4 +1,97 @@
 /**************************/
+/* BELOW 2000px (Smaller desktops) */
+/**************************/
+@media (min-width: 125em) {
+  html {
+    font-size: 82.5%;
+  }
+
+  .container {
+    max-width: 150rem;
+    margin: 0 auto 13rem;
+  }
+
+  .header {
+    padding: 2.8rem 18rem;
+  }
+
+  .hero__content-box {
+    padding: 18rem 0 0 18rem;
+  }
+
+  .hero__img-box {
+    padding-right: 18rem;
+  }
+
+  .hero__img {
+    width: 90.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 1800px (Smaller desktops) */
+/**************************/
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+
+  .container {
+    max-width: 130rem;
+    margin: 0 auto 12rem;
+  }
+
+  .header {
+    padding: 2.8rem 15rem;
+  }
+
+  .hero__content-box {
+    padding: 15rem 0 0 15rem;
+  }
+
+  .hero__img-box {
+    padding-right: 15rem;
+  }
+
+  .hero__img {
+    width: 70.5rem;
+  }
+}
+
+/**************************/
+/* BELOW 1600px (Smaller desktops) */
+/**************************/
+@media (min-width: 100em) {
+  html {
+    font-size: 68.75%;
+  }
+
+  .header {
+    padding: 2.4rem 12rem;
+  }
+
+  .hero__content-box {
+    padding: 12rem 0 0 12rem;
+  }
+
+  .hero__img-box {
+    padding-right: 12rem;
+  }
+
+  .hero__img {
+    width: 58.5rem;
+  }
+
+  /* .carriers__content {
+    padding-left: 9%;
+  }
+
+  .carriers__img {
+    width: 70rem;
+  } */
+}
+
+/**************************/
 /* BELOW 1150px (Smaller desktops) */
 /**************************/
 @media (max-width: 71.875em) {
@@ -102,6 +195,7 @@
 
   .hero__content-box {
     padding: 0;
+    background: none;
   }
 
   .section-gamer {
@@ -217,10 +311,14 @@
 }
 
 /**************************/
-/* BELOW 620px () */
+/* BELOW 500px () */
 /**************************/
 
 @media (max-width: 31.25em) {
+  .header {
+    padding: 8rem 6rem;
+  }
+
   .feature-1 .feature__img-box {
     padding-left: 4rem;
   }
@@ -238,6 +336,44 @@
   }
 
   .feature-2 .feature-card-img {
-    transform: translate(5%, 35%);
+    transform: translate(15%, -5%);
   }
+
+  .carriers__content {
+    padding: 0 3rem 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 400px () */
+/**************************/
+@media (max-width: 25em) {
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+/**************************/
+/* BELOW 350px () */
+/**************************/
+@media (max-width: 21.875em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  /* .header {
+    padding: 2.8rem 2rem;
+  }
+
+  .hero__content-box {
+    padding: 2rem 0 0 2rem;
+  }
+
+  .hero__img-box {
+    padding-right: 2rem;
+  } */
 }
