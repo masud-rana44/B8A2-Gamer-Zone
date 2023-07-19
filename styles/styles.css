@@ -459,7 +459,6 @@ body a {
   align-items: center;
 
   margin-top: 20rem;
-  margin-bottom: 10rem;
 }
 
 .carriers__content {
@@ -487,6 +486,7 @@ body a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 4rem;
 }
 
 .carriers__img {
@@ -498,6 +498,16 @@ body a {
 /* CATEGORIES SECTION  */
 /* ******************* */
 .section-categories {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+
+  padding: 10rem 0;
+}
+
+.categories {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -505,11 +515,16 @@ body a {
   gap: 3rem;
 }
 
+.categories.container {
+  margin-bottom: 0;
+}
+
 .category {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 
+  background: #fff;
   padding: 0.4rem;
   border-radius: 50px;
   border: 1px solid transparent;
