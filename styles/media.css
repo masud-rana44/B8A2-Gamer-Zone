@@ -1,34 +1,21 @@
 /**************************/
-/* BELOW 2000px (large desktops) */
+/* BELOW 1600px (large desktops) */
 /**************************/
-@media (min-width: 125em) {
+@media (min-width: 100em) {
   html {
-    font-size: 82.5%;
-  }
-
-  .container {
-    max-width: 150rem;
-    margin: 0 auto 13rem;
+    font-size: 68.75%;
   }
 
   .header {
-    padding: 2.8rem 18rem;
-  }
-
-  .hero__content-box {
-    padding: 18rem 0 0 18rem;
+    padding: 2.4rem 14rem;
   }
 
   .hero__img-box {
-    padding-right: 18rem;
+    padding-right: 12rem;
   }
 
   .hero__img {
-    width: 90.5rem;
-  }
-
-  .section-carriers {
-    gap: 10rem;
+    width: 58.5rem;
   }
 }
 
@@ -46,11 +33,7 @@
   }
 
   .header {
-    padding: 2.8rem 15rem;
-  }
-
-  .hero__content-box {
-    padding: 15rem 0 0 15rem;
+    padding: 2.8rem 13rem;
   }
 
   .hero__img-box {
@@ -60,30 +43,39 @@
   .hero__img {
     width: 70.5rem;
   }
+
+  .carriers__content {
+    max-width: 64rem;
+  }
 }
 
 /**************************/
-/* BELOW 1600px (large desktops) */
+/* BELOW 2000px (large desktops) */
 /**************************/
-@media (min-width: 100em) {
+@media (min-width: 125em) {
   html {
-    font-size: 68.75%;
+    font-size: 82.5%;
+  }
+
+  .container {
+    max-width: 138rem;
+    margin: 0 auto 13rem;
   }
 
   .header {
-    padding: 2.4rem 12rem;
-  }
-
-  .hero__content-box {
-    padding: 12rem 0 0 12rem;
+    padding: 2.8rem 8rem;
   }
 
   .hero__img-box {
-    padding-right: 12rem;
+    padding-right: 18rem;
   }
 
   .hero__img {
-    width: 58.5rem;
+    width: 90.5rem;
+  }
+
+  .section-carriers {
+    gap: 10rem;
   }
 }
 
@@ -95,13 +87,31 @@
     max-width: 100rem;
   }
 
+  .section-hero {
+    gap: 2rem;
+  }
+
+  .hero__img-box {
+    padding-top: 4rem;
+  }
+
+  .hero__img {
+    width: 45.5rem;
+  }
+
   .section-carriers {
     flex-direction: column;
     padding: 12rem 0;
   }
 
   .carriers__content {
+    max-width: 100%;
     padding: 0 12rem 10rem;
+  }
+
+  .carriers__img {
+    width: 88%;
+    align-self: first flex-end;
   }
 }
 
@@ -117,12 +127,13 @@
     gap: 3rem;
   }
 
-  .hero__content-box {
-    padding: 8rem 0 0 8rem;
-  }
-
   .hero__img-box {
     padding-right: 8rem;
+    padding-top: 2rem;
+  }
+
+  .hero__img {
+    width: 40.5rem;
   }
 
   .gamer__content {
@@ -175,10 +186,10 @@
   .section-hero {
     flex-direction: column-reverse;
     align-items: center;
-    gap: 10rem;
+    gap: 2rem;
 
     margin-top: 3.2rem;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
   }
 
   .hero__img-box {
@@ -190,12 +201,13 @@
   }
 
   .hero__content-box {
-    padding: 0;
-    background: none;
+    width: 100%;
+    min-height: 50rem;
   }
 
   .section-gamer {
     flex-direction: column;
+    padding-top: 0;
   }
 
   .gamer__img {
@@ -315,6 +327,10 @@
     padding: 8rem 6rem;
   }
 
+  .hero__img-box {
+    padding: 0 4rem;
+  }
+
   .feature-1 .feature__img-box {
     padding-left: 4rem;
   }
@@ -346,6 +362,10 @@
 @media (max-width: 25em) {
   .container {
     padding: 0 3rem;
+  }
+
+  .hero__img-box {
+    padding: 0 2rem;
   }
 }
 
