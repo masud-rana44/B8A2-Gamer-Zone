@@ -267,8 +267,12 @@
     transform: translate(5%, 35%);
   }
 
+  .section-carriers {
+    gap: 4rem;
+  }
+
   .carriers__img {
-    width: 100%;
+    width: 95%;
   }
 
   .carriers__content {
@@ -349,6 +353,10 @@
 
   .feature-2 .feature-card-img {
     transform: translate(15%, -5%);
+  }
+
+  .section-carriers {
+    gap: 8rem;
   }
 
   .carriers__content {
